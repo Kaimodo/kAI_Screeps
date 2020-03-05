@@ -23,7 +23,14 @@
 export const MEMORY_VERSION = 1;
 
 // Room Name
-export const roomName = Game.spawns.Spawn1.room.name;
+export const roomName: string = Game.spawns.Spawn1.room.name;
 
 // Slack
-export const ENABLE_SLACK = true;
+export const ENABLE_SLACK: boolean = true;
+
+// DEbug Mode
+export const DEBUG_MODE: boolean = true;
+
+// Creep Max
+export const MANAGER_MAX_HARVESTERS: number = 3;
+export const MANAGER_MAX_UPGRADERS: number = 3;
