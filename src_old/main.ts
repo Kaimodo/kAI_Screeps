@@ -16,6 +16,11 @@ import * as Upgrader from "components/creeps/upgrader";
 
 import * as roomManager from "components/RoomManager";
 
+// import * as Slack from "utils/slack/slack";
+// import * as SlackConfig from "utils/slack/slack_config";
+
+// import { basicAttach } from "utils/slack/slack";
+
 // When compiling TS to JS and bundling with rollup, the line numbers and file names in error messages change
 // This utility uses source maps to get the line numbers and file names of the original, TS source code
 
